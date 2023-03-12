@@ -15,7 +15,7 @@ git clone https://github.com/Archy-git/progpieldarbs
 	pip install -r requirements.txt
 
 ### Lai uzstādītu jaunu projektu ievadi šo komadu
-    py manage.py migrate - creates & configures project
+    py manage.py migrate
 
 ### Lai izveidotu Django administrēšanas superlietotāju portālā http://127.0.0.1:8000/admin/
     py manage.py createsuperuser
