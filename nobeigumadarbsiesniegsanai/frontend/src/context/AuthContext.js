@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
       localStorage.setItem("authTokens", JSON.stringify(data));
       history.push("/");
     } else {
-      alert("Something went wrong!");
+      alert("User does not Exist or credentials entered are not correct! Try Again");
     }
   };
 
