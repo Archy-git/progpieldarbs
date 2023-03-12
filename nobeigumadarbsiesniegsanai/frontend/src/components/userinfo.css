@@ -1,0 +1,15 @@
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6054ff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .user-info__title {
+    font-size: 2rem;
+    color: #000000;
+    margin: 0;
+  }
+  

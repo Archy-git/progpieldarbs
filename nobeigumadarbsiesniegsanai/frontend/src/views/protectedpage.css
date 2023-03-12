@@ -1,0 +1,83 @@
+.main {
+  height: fit-content;
+  padding-bottom: 70px;
+}
+
+.chart {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #2ecc71;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .expenses-box {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .expense-form {
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+  }
+
+.button-expense {
+    border-radius: 5px;
+}
+
+.expense {
+    display: flex;
+    flex: wrap;
+}
+
+.expense-button {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: space-between;
+}
+

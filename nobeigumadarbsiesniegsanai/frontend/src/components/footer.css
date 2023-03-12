@@ -1,0 +1,26 @@
+.footer-container {
+  background-color: #ff3b3b;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Added to display child elements in a column */
+  height: 80px;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 18px;
+  margin-bottom: 10px; /* Added to add some space between the text and the links */
+}
+
+.selection-links a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-right: 20px;
+}
+
+.selection-links a:hover {
+  text-decoration: underline;
+}

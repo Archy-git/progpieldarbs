@@ -1,0 +1,13 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  .protected-page {
+    flex: 1;
+  }
+  
+  .footer {
+    flex-shrink: 0;
+  }

@@ -1,0 +1,19 @@
+To create virtual environment and install all requirements
+	using comand prompt navigate to ./backend folder
+	py -m venv venv
+	venv\Scripts\activate
+	pip install -r requirements.txt
+
+To set-up a fresh project
+    py manage.py migrate - creates & configures project
+
+To create a superuser for django administration portal http://127.0.0.1:8000/admin/
+    py manage.py createsuperuser
+
+To apply changes to the structure. for example, models
+    py manage.py makemigrations 
+    py manage.py migrate
+
+To start server
+    py manage.py runserver  
+ 

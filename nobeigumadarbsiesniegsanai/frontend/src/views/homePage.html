@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Financial Planner and Manager</title>
+    <link rel="stylesheet" href="homePage.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Financial Planner and Manager</h1>
+      <p>A simple way to manage your finances</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Track Your Expenses and Incomes</h2>
+        <p>With our financial planner and manager, you can easily track your expenses and incomes in one place. Say goodbye to spreadsheets and complicated budgeting software.</p>
+      </section>
+
+      <section>
+        <h2>Create Budgets and Goals</h2>
+        <p>Set budgets for different categories and create financial goals for yourself. Our planner will help you stay on track and achieve your financial objectives.</p>
+      </section>
+
+      <section>
+        <h2>Get Insights and Recommendations</h2>
+        <p>Our planner provides you with valuable insights and recommendations based on your financial data. You'll get a better understanding of your spending habits and learn how to improve them.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2023 Financial Planner and Manager.</p>
+    </footer>
+
+    <script>
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => {
+        section.addEventListener('click', () => {
+          section.classList.toggle('active');
+        });
+      });
+    </script>
+  </body>
+</html>
