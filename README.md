@@ -21,8 +21,8 @@ git clone https://github.com/Archy-git/progpieldarbs
     py manage.py createsuperuser
 
 ### Lai izmaiņas stātos spēkā
-    manage.py makemigrations 
-    manage.py migrate
+    py manage.py makemigrations 
+    py manage.py migrate
 
 ### Lai startētu serveri
     py manage.py runserver
